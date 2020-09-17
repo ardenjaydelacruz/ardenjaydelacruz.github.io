@@ -8,6 +8,6 @@ $(document).ready(function () {
 
   $('.carousel').slick({
     autoplay: true,
-    autoplaySpeed: 1000
+    autoplaySpeed: 5000
   });
 });
