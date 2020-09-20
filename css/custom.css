@@ -106,3 +106,16 @@ html, body{
 .side-nav li:hover, .side-nav ul li:hover {
   background-color: #EDB187;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 95%;
+}
+
+.page-title{
+  background-color: black;
+  color: white;
+  border-top: 1px solid #fff;
+  margin-bottom: 30px;
+}
