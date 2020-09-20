@@ -15,7 +15,10 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/hover-min.css">
     <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 </head>
 
 <body>
@@ -41,66 +44,68 @@
         </div>
         <br><br><br>
         <li><a href="#!">HOME</a></li>
-        <li><a href="#!">ABOUT US</a></li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <a class="collapsible-header" style="margin-left: 17px;">ABOUT US<i class="material-icons right"
+                            style="color: white;">arrow_drop_down</i></a>
+                    <div class="collapsible-body" style="background-color: black;">
+                        <ul style="margin-left: 40px;">
+                            <li><a href="#!">WHO WE ARE</a></li>
+                            <li><a href="#!">OUR VISION</a></li>
+                            <li><a href="#!">OUR MISSION</a></li>
+                            <li><a href="#!">OUR VALUES</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
         <li><a href="#!">PRODUCTS AND SERVICES</a></li>
         <li><a href="#!">K&G STORIES</a></li>
         <li><a href="#!">NEWS</a></li>
         <li><a href="#!">CAREERS</a></li>
         <li><a href="#!">LEGAL AND PRIVACY</a></li>
         <li><a href="#!">CONTACT US</a></li>
-        <li class="no-padding">
-            <ul class="collapsible collapsible-accordion">
-                <li>
-                    <a class="collapsible-header">Sample Dropdown<i class="material-icons">arrow_drop_down</i></a>
-                    <div class="collapsible-body">
-                        <ul>
-                            <li><a href="#!">Third</a></li>
-                            <li><a href="#!">Fourth</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </li>
     </ul>
 
-    <div class="banner">
-        <div class="carousel">
-            <div class="fill"><img src="/image/banner-1.jpg"></div>
-            <div class="fill"><img src="/image/2.jpg"></div>
-            <div class="fill"><img src="/image/3.jpg"></div>
+    <!-- <div class="banner" style="background-color: red;">
+        <div class="carousel" style="background-color: pink;">
+            <img src="/image/2.jpg">
+            <img src="/image/3.jpg">
 
         </div>
+    </div> -->
+
+    <div class="carousel carousel-slider center">
+        <a class="carousel-item" href="#one!"><img src="/image/banner-1.jpg"></a>
+        <a class="carousel-item" href="#one!"><img src="/image/2.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="/image/3.jpg"></a>
     </div>
 
     <div class="container">
-
-
         <div class="row home-row-1">
-            <div class="col s12 m6 l6 content-1">
-                <div style="background-image: url(./image/home1.png); background-size: 100% 100%;"></div>
+            <div class="col s12 m6 l6 content-1 hvr-shrink fill">
+                <img src="./image/home1.png">
             </div>
             <div class="col s12 m6 l6">
-                <div class="content-2" style="background-image: url(./image/home2.png); background-size: 100% 100%;">
-
+                <div class="content-2 fill hvr-shrink">
+                    <img src="./image/home2.png">
                 </div>
-                <div class="content-2"
-                    style="background-image: url(./image/home3.png); background-size: 100% 100%; margin-top: 23px;">
-
+                <div class="content-2 fill hvr-shrink" style="margin-top: 20px;">
+                    <img src="./image/home3.png">
                 </div>
             </div>
         </div>
 
         <div class="row home-row-2">
-            <div class="col s12 m4 l4">
-                <div style="background-image: url(./image/home4.png); background-size: 100% 100%; "></div>
-
+            <div class="col s12 m4 l4 hvr-shrink fill">
+                <img src="./image/home4.png">
             </div>
-            <div class="col s12 m4 l4">
-                <div style="background-image: url(./image/home5.png); background-size: 100% 100%;"></div>
+            <div class="col s12 m4 l4 hvr-shrink fill">
+                <img src="./image/home5.png">
             </div>
-            <div class="col s12 m4 l4">
-                <div style="background-image: url(./image/home6.png); background-size: 100% 100%;"></div>
-
+            <div class="col s12 m4 l4 hvr-shrink fill">
+                <img src="./image/home6.png">
             </div>
         </div>
 
