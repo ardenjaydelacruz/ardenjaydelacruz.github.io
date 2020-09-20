@@ -102,3 +102,7 @@ html, body{
 #mobile-demo a{
   color: white;
 }
+
+.side-nav li:hover, .side-nav ul li:hover {
+  background-color: #EDB187;
+}
