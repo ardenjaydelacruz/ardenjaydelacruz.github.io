@@ -1,5 +1,6 @@
 html, body{
     background-color: white;
+    font-family: Arial, sans-serif;
   }
 
   h2{
@@ -7,6 +8,16 @@ html, body{
     color:#fff;
   }
 
+  #brand-logo{
+    margin-left:-10px;
+    font-weight: bolder;
+    font-size: 1.3em;
+  }
+
+  .logo{
+    margin-top: 30px;
+   }
+ 
   
   /* .carousel{
     width:100%;
@@ -26,6 +37,10 @@ html, body{
     border-top: 2px solid #fff;
     
   } */
+
+  .carousel {
+    margin-bottom: 25px;
+  }
 
   .home-row-1{
     margin:20px 10px;  height: 90vh;
@@ -67,9 +82,6 @@ html, body{
     margin-top: 10px;
   }
 
-  .logo{
-   padding:.3rem;
-  }
 
   body {
     display: flex;
@@ -99,8 +111,17 @@ html, body{
   color: white;
 }
 
-#mobile-demo a{
+#mobile-demo a, nav-dropdown{
   color: white;
+  font-size: 19px;
+}
+
+#mobile-demo li{
+  padding: 8px;
+}
+
+#no-padding li{
+  padding: 0px;
 }
 
 .side-nav li:hover, .side-nav ul li:hover {
@@ -119,17 +140,11 @@ html, body{
   border-top: 1px solid #fff;
 }
 
-/* The sidebar menu */
-.about-nav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  right: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+nav {
+  height: 90px;
+  line-height: 90px;
 }
+
 
 #sticky-sidebar {
   position:fixed;
