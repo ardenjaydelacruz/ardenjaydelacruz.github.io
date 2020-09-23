@@ -5,12 +5,12 @@
     }
 
     .home-row-1{
-        height: 400px;
+        height: 600px;
     }
 
 
     .home-row-2 div{
-        height: 200px;
+        height: 300px;
     }
 
     #mobile-demo a, #nav-dropdown{
@@ -39,11 +39,11 @@
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
     .home-row-1{
-        height: 300px;
+        height: 800px;
     }
 
     .home-row-2{
-        height: 250px;
+        height: 300px;
     }
 
     #mobile-demo a, #nav-dropdown{
@@ -61,15 +61,7 @@
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 1024px) {
-    .home-row-1{
-        height: 550px;
-    }
 
-    .home-row-2{
-        height: 280px;
-    }
-  }
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
@@ -88,7 +80,24 @@
     }
   }
   
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1024px) {
-    
+    .home-row-1{
+        height: 900px;
+    }
+
+    .home-row-2{
+        height: 400px;
+    }
+    #mobile-demo a, #nav-dropdown{
+      font-size: 2em;
+    }
+
+    #mobile-demo li{
+      padding: 5%;
+    }
+
+    #nav-dropdown{
+      margin-left: 5%;
+      padding:5%;
+    }
   }
