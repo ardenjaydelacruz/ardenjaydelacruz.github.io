@@ -10,12 +10,11 @@ html, body{
 
   #brand-logo{
     margin-left:-10px;
-    font-weight: bolder;
     font-size: 1.3em;
   }
 
   .logo{
-    margin-top: 30px;
+    margin-top: 20px;
    }
  
   
@@ -39,7 +38,7 @@ html, body{
   } */
 
   .carousel {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
 
   .home-row-1{
@@ -64,7 +63,7 @@ html, body{
   }
 
   .page-footer{
-    margin-top:30px;
+    margin-top:40px;
   }
 
   .footer-copyright, .footer-content{
@@ -109,24 +108,32 @@ html, body{
 .side-nav{
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
-#mobile-demo a, nav-dropdown{
+#mobile-demo a, #nav-dropdown{
   color: white;
   font-size: 19px;
 }
 
-#mobile-demo li{
+#nav-dropdown{
+  margin-left: 27px;
+}
+#mobile-demo li, #nav-dropdown{
   padding: 8px;
 }
 
-#no-padding li{
+/* #no-padding li{
   padding: 0px;
+} */
+
+/* .side-nav li:hover, .side-nav ul li:hover {
+  background-color: #ebebeb;
 }
 
-.side-nav li:hover, .side-nav ul li:hover {
-  background-color: #EDB187;
-}
+.side-nav li a:hover{
+  color:#000;
+} */
 
 .container {
   margin: 0 auto;
@@ -141,12 +148,16 @@ html, body{
 }
 
 nav {
-  height: 90px;
-  line-height: 90px;
+  height: 75px;
+  line-height: 75px;
 }
 
 
 #sticky-sidebar {
   position:fixed;
   width: 22%;
+  }
+
+  #side-nav-close{
+    padding:0px 20px;
   }

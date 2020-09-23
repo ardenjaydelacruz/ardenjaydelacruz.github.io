@@ -12,10 +12,32 @@
     .home-row-2 div{
         height: 200px;
     }
+
+    #mobile-demo a, #nav-dropdown{
+      font-size: 16px;
+    }
+
+    #mobile-demo li{
+      padding: 10px;
+    }
+
+    #nav-dropdown{
+      margin-left: 30px;
+      padding:10px;
+    }
+
+    #side-nav-close{
+      padding:20px 250px 20px 20px;
+    }
+
+    #arrow-down{
+      padding-right: 250px;
+    }
+
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 600px) {
     .home-row-1{
         height: 300px;
     }
@@ -23,10 +45,23 @@
     .home-row-2{
         height: 250px;
     }
+
+    #mobile-demo a, #nav-dropdown{
+      font-size: 35px;
+    }
+
+    #mobile-demo li{
+      padding: 30px;
+    }
+
+    #nav-dropdown{
+      margin-left: 30px;
+      padding:25px;
+    }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .home-row-1{
         height: 550px;
     }
@@ -38,10 +73,22 @@
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
+    
+    #mobile-demo a, #nav-dropdown{
+      font-size: 20px;
+    }
 
+    #mobile-demo li{
+      padding: 10px;
+    }
+
+    #nav-dropdown{
+      margin-left: 30px;
+      padding:10px;
+    }
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-
+  @media only screen and (min-width: 1024px) {
+    
   }
