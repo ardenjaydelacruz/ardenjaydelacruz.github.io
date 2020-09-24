@@ -10,7 +10,7 @@ html, body{
 
   #brand-logo{
     margin-left:-10px;
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .logo{
@@ -38,11 +38,11 @@ html, body{
   } */
 
   .carousel {
-    margin-bottom: 30px;
+    margin-bottom: 8px;
   }
 
   .home-row-1{
-    margin:20px 10px;  height: 90vh;
+    margin:0px 0px;  height: 90vh;
   }
 
   .home-row-1 div, .home-row-2 div{
@@ -54,16 +54,16 @@ html, body{
   }
 
   .home-row-1 .content-2{
-    height:48%;
+    height:49%;
   }
 
   .home-row-2{
-    margin:10px; 
+    margin:0px; 
     height: 50vh;
   }
 
   .page-footer{
-    margin-top:40px;
+    margin-top:5px;
   }
 
   .footer-copyright, .footer-content{
@@ -123,6 +123,7 @@ html, body{
   padding: 8px;
 }
 
+
 /* #no-padding li{
   padding: 0px;
 } */
@@ -138,7 +139,7 @@ html, body{
 .container {
   margin: 0 auto;
   max-width: 1280px;
-  width: 95%;
+  width: 96%;
 }
 
 .page-title{
@@ -160,4 +161,8 @@ nav {
 
   #side-nav-close{
     padding:0px 20px;
+  }
+
+  .row .col {
+    padding: 3px;
   }

@@ -13,19 +13,24 @@
         height: 300px;
     }
 
-    #mobile-demo a, #nav-dropdown{
-      font-size: 16px;
+    #mobile-demo .menu-text{
+      font-size: 1.3em;
+    }
+
+    #mobile-demo .menu-subtext{
+      font-size: 1em;
+      padding-left: 40px;
     }
 
     #mobile-demo li{
-      padding: 10px;
+      padding: 2%;
     }
 
     #nav-dropdown{
-      margin-left: 30px;
+      margin-left: 5%;
       padding:10px;
+      font-size: 10em;
     }
-
     #side-nav-close{
       padding:20px 250px 20px 20px;
     }
@@ -34,29 +39,39 @@
       padding-right: 250px;
     }
 
+    .row .col {
+      padding: 10px;
+    }
+
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
     .home-row-1{
-        height: 800px;
+        height: 600px;
     }
 
     .home-row-2{
         height: 300px;
     }
 
-    #mobile-demo a, #nav-dropdown{
-      font-size: 35px;
+    #mobile-demo .menu-text{
+      font-size: 1.5em;
+    }
+
+    #mobile-demo .menu-subtext{
+      font-size: 1.2em;
+      padding-left: 40px;
     }
 
     #mobile-demo li{
-      padding: 30px;
+      padding: 2%;
     }
 
     #nav-dropdown{
-      margin-left: 30px;
-      padding:25px;
+      margin-left: 5%;
+      padding:10px;
+      font-size: 10em;
     }
   }
   
@@ -82,22 +97,31 @@
   
   @media only screen and (min-width: 1024px) {
     .home-row-1{
-        height: 900px;
+        height: 650px;
     }
 
     .home-row-2{
         height: 400px;
     }
-    #mobile-demo a, #nav-dropdown{
-      font-size: 2em;
+
+    #mobile-demo .menu-text{
+      font-size: 1.3em;
+    }
+
+    #mobile-demo .menu-subtext{
+      font-size: 1em;
+      padding-left: 40px;
     }
 
     #mobile-demo li{
-      padding: 5%;
+      padding: 1%;
     }
 
     #nav-dropdown{
       margin-left: 5%;
-      padding:5%;
+      padding:10px;
+      font-size: 10em;
     }
+
+    
   }
