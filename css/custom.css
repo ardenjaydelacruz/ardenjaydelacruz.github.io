@@ -178,3 +178,7 @@ nav {
   #career-header{
     padding: 30px 20px 0px 20px;
   }
+
+  .justify{
+    text-align: justify;
+  }
