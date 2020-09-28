@@ -15,8 +15,7 @@ $(document).ready(function () {
 
   $('.carousel.carousel-slider').carousel({
     fullWidth: true,
-    duration: 1000,
+    duration: 200,
     indicators: true,
-    noWrap: false
   });
 });

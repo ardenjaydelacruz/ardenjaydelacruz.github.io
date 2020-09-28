@@ -163,6 +163,18 @@ nav {
     padding:0px 20px;
   }
 
-  .row .col {
+ #home .row .col {
     padding: 3px;
+  }
+
+  .story-tile{
+    padding: 20px;
+  }
+
+  #news-header{
+    padding: 30px 20px;
+  }
+
+  #career-header{
+    padding: 30px 20px 0px 20px;
   }
